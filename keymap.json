@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-f": "project_search::ToggleFocus",
+      "cmd-g": "search::SelectNextMatch",
+      "cmd-shift-g": "search::SelectPrevMatch",
+      "alt-ctrl-c": "search::ToggleCaseSensitive",
+      "alt-ctrl-w": "search::ToggleWholeWord",
+      "alt-ctrl-x": "search::ToggleRegex",
+      "ctrl-tab": "pane::GoBack",
+      "shift-ctrl-tab": "pane::GoForward"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-shift-l": "editor::Format"
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-tab": "workspace::ActivatePreviousPane",
+      "shift-ctrl-tab": "workspace::ActivateNextPane"
+    }
+  },
+]
